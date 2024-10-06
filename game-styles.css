@@ -13,7 +13,6 @@ body {
     justify-content: center;
     height: 100vh;
     cursor: url("https://6652d639faf7514bae1b3d79--bright-gecko-d68e17.netlify.app/assets/cursor/cursor.cur"), auto;  
-
 }
 
 #reset {
@@ -123,3 +122,11 @@ body {
     position: relative;
     z-index: 10;
 }
+#custom-cursor {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    z-index: 1000;
+}
+
