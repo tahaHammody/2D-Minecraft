@@ -12,6 +12,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    cursor: url("https://6652d639faf7514bae1b3d79--bright-gecko-d68e17.netlify.app/assets/cursor/cursor.cur"), auto; 
+
 }
 
 .container {

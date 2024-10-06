@@ -12,6 +12,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    cursor: url("https://6652d639faf7514bae1b3d79--bright-gecko-d68e17.netlify.app/assets/cursor/cursor.cur"), auto;  
+
 }
 
 #reset {
@@ -34,6 +36,12 @@ body {
     width: 32px;
     height: 32px;
     background-size: cover;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.tile:hover {
+    transform: scale(1.3); 
+    z-index: 10;
 }
 
 .sky {
@@ -68,7 +76,6 @@ body {
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
-
 
 #inventory img {
     width: 35px;
@@ -116,4 +123,3 @@ body {
     position: relative;
     z-index: 10;
 }
-
