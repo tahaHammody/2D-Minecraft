@@ -18,13 +18,6 @@ The game logic revolves around the interaction of tools and blocks, managed thro
 
 ### 1. **gameScript.js**
    - **Description**: This file contains the main game logic. It includes functions for tool interactions, digging and chopping blocks, updating resource counters, and managing the game's state.
-   - **Key Functions**:
-     - `generateWorld()`: Creates the game grid with different block types.
-     - `digBlock()`: Handles digging mechanics for the shovel.
-     - `chopBlock()`: Handles chopping mechanics for the axe (wood and branches).
-     - `changeCursor()`: Changes the cursor based on the selected tool.
-     - `resetCursor()`: Resets the cursor to default.
-  
 
 ### 2. **game.html**
    - **Description**: This is the main game interface. It contains the grid layout, tools for selecting equipment, and the counters for tracking resources (grass, soil, wood).
